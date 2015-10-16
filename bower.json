@@ -1,7 +1,7 @@
 {
   "name": "polyfiller",
   "main": "polyfiller.min.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/uniqname/polyfiller",
   "description": "A promise based mechanism for dynamically polyfilling features.",
   "moduleType": [
