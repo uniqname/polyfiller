@@ -6,7 +6,7 @@
   "jsnext:main": "polyfiller.es",
   "scripts": {
     "test": "node polyfiller-test.js | tap-spec",
-    "build": "rollup -i polyfiller.es | babel > polyfiller.js && cat polyfiller.js | uglifyjs -emc > polyfiller.min.js"
+    "build": "rollup -i polyfiller.es.js | babel > polyfiller.js && cat polyfiller.js | uglifyjs -emc > polyfiller.min.js"
   },
   "repository": {
     "type": "git",
