@@ -1,6 +1,6 @@
 {
   "name": "polyfiller",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A promise based mechanism for dynamically polyfilling features",
   "main": "polyfiller.min.js",
   "jsnext:main": "polyfiller.es",
