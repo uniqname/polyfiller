@@ -1,0 +1,34 @@
+{
+  "name": "polyfiller",
+  "version": "1.0.0",
+  "description": "A promise based mechanism for dynamically polyfilling features",
+  "main": "polyfiller.min.js",
+  "jsnext:main": "polyfiller.es",
+  "scripts": {
+    "test": "node polyfiller-test.js | tap-spec",
+    "build": "rollup -i polyfiller.es | babel > polyfiller.js && cat polyfiller.js | uglifyjs -emc > polyfiller.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniqname/polyfiller.git"
+  },
+  "keywords": [
+    "polyfills"
+  ],
+  "author": "Cory Brown <oh.wise.man@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uniqname/polyfiller/issues"
+  },
+  "browserify": {
+    "transform": "babel"
+  },
+  "homepage": "https://github.com/uniqname/polyfiller#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "rollup": "^0.19.1",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.1",
+    "uglifyjs": "^2.4.10"
+  }
+}
