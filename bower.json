@@ -1,0 +1,27 @@
+{
+  "name": "polyfiller",
+  "main": "polyfiller.min.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/uniqname/polyfiller",
+  "description": "A promise based mechanism for dynamically polyfilling features.",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "polyfills",
+    "prollyfills",
+    "ponyfills"
+  ],
+  "authors": [
+    "Cory Brown <oh.wise.man@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
